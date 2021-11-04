@@ -103,12 +103,13 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   max-width: 80%;
+  overflow: auto;
 }
 
 video {
-  height: 50%;
+  height: 30%;
   min-height: 600px;
-  width: 45%;
+  width: 40%;
   min-width: 800px;
   object-fit: cover;
 }
