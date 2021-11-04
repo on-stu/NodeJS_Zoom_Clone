@@ -100,6 +100,7 @@ body {
 #video-grid {
   display: flex;
   column-gap: 20px;
+  row-gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
   max-width: 80%;
@@ -110,6 +111,9 @@ video {
   height: 400px;
   width: 500px;
   object-fit: cover;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg); /* Safari and Chrome */
+  -moz-transform: rotateY(180deg); /* Firefox */
 }
 
 .unmute,
