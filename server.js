@@ -29,4 +29,4 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(3030, () => console.log("server is on"));
+server.listen(process.env.PORT || 3030, () => console.log("server is on"));
